@@ -4,7 +4,7 @@ bl_info = {
     "category": "BHiMAX",
     "author": "Bhimraj Malviya",
     "description": "Create collections and manage objects with visibility control.",
-    "version": (1, 0, 2),
+    "version": (1, 0, 3),
 }
 
 import bpy
@@ -127,7 +127,7 @@ class BHiMAX_Panel(bpy.types.Panel):
     bl_idname = "BHiMAX_PT_main"
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category = 'BHiMAX'
+    bl_category = 'Collection Editor'
 
     def draw(self, context):
         layout = self.layout
